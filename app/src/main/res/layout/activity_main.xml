@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ORDENAMIENTO BURBUJA"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="50sp"
+        />
+
+    <EditText
+        android:id="@+id/etVal01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numero 01"
+        android:inputType="text"
+        android:textAlignment="center"
+
+        android:layout_marginBottom="20sp"
+        android:layout_marginLeft="80sp"
+        android:layout_marginRight="80sp"
+        />
+
+    <EditText
+        android:id="@+id/etVal02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número 02"
+        android:inputType="text"
+        android:textAlignment="center"
+
+        android:layout_marginBottom="20sp"
+        android:layout_marginLeft="80sp"
+        android:layout_marginRight="80sp"
+        />
+
+    <EditText
+        android:id="@+id/etVal03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número 03"
+        android:inputType="text"
+        android:textAlignment="center"
+
+        android:layout_marginBottom="20sp"
+        android:layout_marginLeft="80sp"
+        android:layout_marginRight="80sp"
+        />
+
+    <EditText
+        android:id="@+id/etVal04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número 04"
+        android:inputType="text"
+        android:textAlignment="center"
+
+        android:layout_marginBottom="20sp"
+        android:layout_marginLeft="80sp"
+        android:layout_marginRight="80sp"
+        />
+
+    <EditText
+        android:id="@+id/etVal05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número 05"
+        android:inputType="text"
+        android:textAlignment="center"
+
+        android:layout_marginBottom="20sp"
+        android:layout_marginLeft="80sp"
+        android:layout_marginRight="80sp"
+        />
+
+    <Button
+        android:id="@+id/btnOrdenar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ordenar"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Orden: "
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20sp"
+        />
+</LinearLayout>
